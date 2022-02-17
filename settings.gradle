@@ -1,0 +1,3 @@
+rootProject.name = 'demo3'
+include(':proj')
+project(':proj').projectDir = new File(settingsDir, './proj')
